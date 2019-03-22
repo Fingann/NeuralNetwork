@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cli", "Cli\Cli.csproj", "{0F405C49-4EC7-40EC-B4D2-6E72482910A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackPropagation", "BackPropagation\BackPropagation.csproj", "{D83CC9DC-0D7E-4045-8BFC-69B1787ADDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackPropagation.Tests", "BackPropagation.Tests\BackPropagation.Tests.csproj", "{E7015EF8-50D5-4148-8AF2-A97A17F8256A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F405C49-4EC7-40EC-B4D2-6E72482910A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F405C49-4EC7-40EC-B4D2-6E72482910A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F405C49-4EC7-40EC-B4D2-6E72482910A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F405C49-4EC7-40EC-B4D2-6E72482910A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83CC9DC-0D7E-4045-8BFC-69B1787ADDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83CC9DC-0D7E-4045-8BFC-69B1787ADDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83CC9DC-0D7E-4045-8BFC-69B1787ADDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83CC9DC-0D7E-4045-8BFC-69B1787ADDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7015EF8-50D5-4148-8AF2-A97A17F8256A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7015EF8-50D5-4148-8AF2-A97A17F8256A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7015EF8-50D5-4148-8AF2-A97A17F8256A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7015EF8-50D5-4148-8AF2-A97A17F8256A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

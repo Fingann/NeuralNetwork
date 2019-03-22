@@ -2,10 +2,10 @@
 {
 	public class DataPoint
 	{
-		public double[] Values { get; }
-		public double[] Targets { get; }
+		public float[] Values { get; }
+		public float[] Targets { get; }
 		
-		public DataPoint(double[] values, double[] targets)
+		public DataPoint(float[] values, float[] targets)
 		{
 			Values = values;
 			Targets = targets;

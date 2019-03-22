@@ -61,7 +61,7 @@ namespace BackPropagation.Helpers
 			//Export Layer
 			foreach (var n in dn.OutputLayer)
 			{
-				var neuron = new Neuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value);
+				var neuron = new Neuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value, n.ActivationType);
 				network.OutputLayer.Add(neuron);
 				allNeurons.Add(neuron);
 			}
@@ -91,10 +91,10 @@ namespace BackPropagation.Helpers
 			return JsonConvert.DeserializeObject<List<DataPoint>>(text);
 		}
 
-		private static HelperNetwork GetHelperNetwork(string path)
+		private static HelperNetworkBase GetHelperNetwork(string path)
 		{
 			var text = File.ReadAllText(path);
-			return JsonConvert.DeserializeObject<HelperNetwork>(text);
+			return JsonConvert.DeserializeObject<HelperNetworkBase>(text);
 		}
 	}
 }

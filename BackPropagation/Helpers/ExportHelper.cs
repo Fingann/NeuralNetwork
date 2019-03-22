@@ -13,7 +13,7 @@ namespace BackPropagation.Helpers
 
 			
 			
-				using (var file = File.CreateText("NetworkExported.txt"))
+				using (var file = File.CreateText("NetworkExported.json"))
 				{
 					var serializer = new JsonSerializer { Formatting = Formatting.Indented };
 					serializer.Serialize(file, dn);
@@ -31,9 +31,9 @@ namespace BackPropagation.Helpers
 			
 		}
 
-		private static HelperNetwork GetHelperNetwork(NeuralNetwork neuralNetwork)
+		private static HelperNetworkBase GetHelperNetwork(NeuralNetwork neuralNetwork)
 		{
-			var hn = new HelperNetwork
+			var hn = new HelperNetworkBase
 			{
 				LearnRate = neuralNetwork.LearnRate,
 				Momentum = neuralNetwork.Momentum
@@ -42,7 +42,7 @@ namespace BackPropagation.Helpers
 			//Input Layer
 			foreach (var n in neuralNetwork.InputLayer)
 			{
-				var neuron = new HelperNeuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value);
+				var neuron = new HelperNeuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value, n.ActivationType);
 				
 				hn.InputLayer.Add(neuron);
 
@@ -68,7 +68,7 @@ namespace BackPropagation.Helpers
 
 				foreach (var n in l)
 				{
-					var neuron = new HelperNeuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value);
+					var neuron = new HelperNeuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value, n.ActivationType);
 
 
 					layer.Add(neuron);
@@ -94,7 +94,7 @@ namespace BackPropagation.Helpers
 			//Output Layer
 			foreach (var n in neuralNetwork.OutputLayer)
 			{
-				var neuron = new HelperNeuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value);
+				var neuron = new HelperNeuron(n.Id, n.Bias, n.BiasDelta, n.Gradient, n.Value, n.ActivationType);
 
 
 				hn.OutputLayer.Add(neuron);

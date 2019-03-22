@@ -1,20 +1,20 @@
 ﻿using System;
+using BackPropagation.Abstractions;
 using BackPropagation.Helpers;
 
 namespace BackPropagation.NetworkModels
 {
-	public class Synapse
+	public class Synapse: SynapseBase
 	{
-		public Guid Id { get; set; }
 		public Neuron InputNeuron { get; set; }
 		public Neuron OutputNeuron { get; set; }
-		public double Weight { get; set; }
-		public double WeightDelta { get; set; }
+		
+	
 
 		public Synapse()
 		{
 			Id = Guid.NewGuid();
-			Weight = Util.GetRandom();
+			Weight = (float)Util.GetRandom();
 		}
 
 		public Synapse(Neuron inputNeuron, Neuron outputNeuron) : this()

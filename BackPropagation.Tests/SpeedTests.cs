@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using BackPropagation.ActivationFunctions;
 using BackPropagation.Helpers;
 using BackPropagation.NetworkModels;
 using Xunit;
@@ -30,5 +31,6 @@ namespace BackPropagation.Tests
             var timeElapsed = times.Aggregate((a,b) => a.Add(b)).Divide(times.Count);
             Console.WriteLine(sw.Elapsed);
         }
+
     }
 }

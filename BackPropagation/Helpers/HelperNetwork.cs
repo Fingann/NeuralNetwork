@@ -1,47 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml;
 using BackPropagation.Abstractions;
+using BackPropagation.ActivationFunctions;
+using BackPropagation.ActivationFunctions.Delegates;
 
 namespace BackPropagation.Helpers
 {
-	internal class HelperNetwork: Network<HelperNeuron>
+	internal class HelperNetworkBase: NetworkBase<HelperNeuron>
 	{
 		
 		public List<HelperSynapse> Synapses { get; set; }
 
-		public HelperNetwork()
+		public HelperNetworkBase() 
 		{
-			InputLayer = new List<HelperNeuron>();
-			HiddenLayers = new List<List<HelperNeuron>>();
-			OutputLayer = new List<HelperNeuron>();
+			
 			Synapses = new List<HelperSynapse>();
 		}
 	}
 
-	public class HelperNeuron
+	public class HelperNeuron : NeuronBase
 	{
-		public HelperNeuron(Guid id, double bias, double biasDelta, double gradient, double value)
+		public HelperNeuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType type): base(id,bias,biasDelta,gradient,value,type)
 		{
-			Id = id;
-			Bias = bias;
-			BiasDelta = biasDelta;
-			Gradient = gradient;
-			Value = value;
 		}
-		public Guid Id { get; set; }
-		public double Bias { get; set; }
-		public double BiasDelta { get; set; }
-		public double Gradient { get; set; }
-		public double Value { get; set; }
-		
 	}
 
-	public class HelperSynapse
+	public class HelperSynapse:SynapseBase
 	{
-		public Guid Id { get; set; }
 		public Guid OutputNeuronId { get; set; }
 		public Guid InputNeuronId { get; set; }
-		public double Weight { get; set; }
-		public double WeightDelta { get; set; }
+	
 	}
 }

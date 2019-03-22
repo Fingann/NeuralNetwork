@@ -11,5 +11,6 @@ namespace BackPropagation.Helpers
         {
             return 2 * Random.NextDouble() - 1;
         }
+        
     }
 }

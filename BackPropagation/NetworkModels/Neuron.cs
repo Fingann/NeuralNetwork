@@ -1,37 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using BackPropagation.Abstractions;
 using BackPropagation.ActivationFunctions;
-using BackPropagation.Helpers;
+
 
 namespace BackPropagation.NetworkModels
 {
-	public class Neuron
+	public class Neuron : NeuronBase
 	{
-		public Guid Id { get; set; }
+		
 		public List<Synapse> InputSynapses { get; set; }
 		public List<Synapse> OutputSynapses { get; set; }
-		public double Bias { get; set; }
-		public double BiasDelta { get; set; }
-		public double Gradient { get; set; }
-		public double Value { get; set; }
+		
 
-		public Neuron(Guid id, double bias, double biasDelta, double gradient, double value)
+		public Neuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType activation): base(id, bias,biasDelta,gradient,value,activation)
 		{
-			Id = id;
 			InputSynapses = new List<Synapse>();
 			OutputSynapses = new List<Synapse>();
-			Bias = bias;
-			BiasDelta = biasDelta;
-			Gradient = gradient;
-			Value = value;
 		}
+
 		public Neuron()
 		{
-			Id = Guid.NewGuid();
 			InputSynapses = new List<Synapse>();
 			OutputSynapses = new List<Synapse>();
-			Bias = Util.GetRandom();
 		}
 
 		public Neuron(IEnumerable<Neuron> inputNeurons) : this()
@@ -44,25 +37,31 @@ namespace BackPropagation.NetworkModels
 			}
 		}
 
-		public virtual double CalculateValue()
+		public virtual void CalculateValue()
 		{
-			return Value = Sigmoid.Output(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
+			Value = ActivationFunc.Activation(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
+			//return Value = Sigmoid.Output(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
 		}
 
-		public double CalculateError(double target)
+		public float CalculateError(float target)
 		{
 			return target - Value;
 		}
 
-		public double CalculateGradient(double? target = null)
+		public void CalculateGradient(float? target = null)
 		{
 			if (target == null)
-				return Gradient = OutputSynapses.Sum(a => a.OutputNeuron.Gradient * a.Weight) * Sigmoid.Derivative(Value);
+			{
+				Gradient = OutputSynapses.Sum(a => a.OutputNeuron.Gradient * a.Weight) *
+				           ActivationFunc.ActivationPrime(Value);
+				return;
+			}
 
-			return Gradient = CalculateError(target.Value) * Sigmoid.Derivative(Value);
+			Gradient = CalculateError(target.Value) * ActivationFunc.ActivationPrime(Value);
+			//return Gradient = CalculateError(target.Value) * Sigmoid.Derivative(Value);
 		}
 
-		public void UpdateWeights(double learnRate, double momentum)
+		public void UpdateWeights(float learnRate, float momentum)
 		{
 			var prevDelta = BiasDelta;
 			BiasDelta = learnRate * Gradient;

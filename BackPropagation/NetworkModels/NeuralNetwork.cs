@@ -2,31 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using BackPropagation.Abstractions;
+using BackPropagation.ActivationFunctions;
 
 namespace BackPropagation.NetworkModels
 {
-	public class NeuralNetwork : Network<Neuron>
+	public class NeuralNetwork : NetworkBase<Neuron>
 	{
 		
 		
 		
 		public NeuralNetwork()
 		{
-			LearnRate = 0;
-			Momentum = 0;
-			InputLayer = new List<Neuron>();
-			HiddenLayers = new List<List<Neuron>>();
-			OutputLayer = new List<Neuron>();
+			
 		}
 
-		public NeuralNetwork(int inputSize, int[] hiddenSizes, int outputSize, double learnRate = .4, double momentum = .9)
+		public NeuralNetwork(int inputSize, int[] hiddenSizes, int outputSize,  float learnRate = 0.4F, float momentum = 0.9F,ActivationType activationType = ActivationType.Sigmoid): base(learnRate, momentum, activationType)
 		{
-			LearnRate = learnRate;
-			Momentum = momentum;
-			InputLayer = new List<Neuron>();
-			HiddenLayers = new List<List<Neuron>>();
-			OutputLayer = new List<Neuron>();
-
 			//create input layer
 			for (var i = 0; i < inputSize; i++)
 				InputLayer.Add(new Neuron());
@@ -78,11 +69,12 @@ namespace BackPropagation.NetworkModels
 					errors.Add(CalculateError(dataSet.Targets));
 				}
 				error = errors.Average();
+				Console.WriteLine("Error: " + error);
 				numEpochs++;
 			}
 		}
 
-		private void ForwardPropagate(params double[] inputs)
+		private void ForwardPropagate(params float[] inputs)
 		{
 			var i = 0;
 			InputLayer.ForEach(a => a.Value = inputs[i++]);
@@ -90,7 +82,7 @@ namespace BackPropagation.NetworkModels
 			OutputLayer.ForEach(a => a.CalculateValue());
 		}
 
-		private void BackPropagate(params double[] targets)
+		private void BackPropagate(params float[] targets)
 		{
 			var i = 0;
 			OutputLayer.ForEach(a => a.CalculateGradient(targets[i++]));
@@ -101,13 +93,13 @@ namespace BackPropagation.NetworkModels
 			OutputLayer.ForEach(a => a.UpdateWeights(LearnRate, Momentum));
 		}
 
-		public double[] Compute(params double[] inputs)
+		public float[] Compute(params float[] inputs)
 		{
 			ForwardPropagate(inputs);
 			return OutputLayer.Select(a => a.Value).ToArray();
 		}
 
-		private double CalculateError(params double[] targets)
+		private double CalculateError(params float[] targets)
 		{
 			var i = 0;
 			return OutputLayer.Sum(a => Math.Abs(a.CalculateError(targets[i++])));

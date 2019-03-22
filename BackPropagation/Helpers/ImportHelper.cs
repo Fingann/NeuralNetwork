@@ -84,17 +84,17 @@ namespace BackPropagation.Helpers
 			return network;
 		}
 
-		public static List<DataPoint> ImportDatasets(string path)
+		public static IReadOnlyList<DataPoint> ImportTrainingData(string path)
 		{
 
 			var text = File.ReadAllText(path);
-			return JsonConvert.DeserializeObject<List<DataPoint>>(text);
+			return JsonConvert.DeserializeObject<IReadOnlyList<DataPoint>>(text);
 		}
 
-		private static HelperNetworkBase GetHelperNetwork(string path)
+		private static HelperNetwork GetHelperNetwork(string path)
 		{
 			var text = File.ReadAllText(path);
-			return JsonConvert.DeserializeObject<HelperNetworkBase>(text);
+			return JsonConvert.DeserializeObject<HelperNetwork>(text);
 		}
 	}
 }

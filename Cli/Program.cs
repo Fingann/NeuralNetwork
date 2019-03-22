@@ -10,7 +10,7 @@ namespace Cli
     {
         static void Main(string[] args)
         {
-            var trainingData = ImportHelper.ImportDatasets(
+            var trainingData = ImportHelper.ImportTrainingData(
                 "/Users/fingann/Documents/GitHub/NeuralNetwork/NeuralNetwork/BackPropagation/DataExamples/Datasets/RockPaperScissor_Dataset.json");
 
             var network = new NeuralNetwork(6, new []{10}, 2,0.05F,0.9F);
@@ -20,11 +20,11 @@ namespace Cli
             Console.WriteLine("Training Complete");
 
             Console.WriteLine("Exporting");
-            ExportHelper.ExportNetwork(network);
+            ExportHelper.ExportNetwork(network, "SuperNetwork.json");
             Console.WriteLine("Exporting Complete");
             
             Console.WriteLine("Importing");
-            var net2 = ImportHelper.ImportNetwork("NetworkExported.json");
+            var net2 = ImportHelper.ImportNetwork("SuperNetwork.json");
             Console.WriteLine("Importing Complete");
             
 

@@ -7,14 +7,12 @@ using BackPropagation.ActivationFunctions.Delegates;
 
 namespace BackPropagation.Helpers
 {
-	internal class HelperNetworkBase: NetworkBase<HelperNeuron>
+	internal class HelperNetwork: NetworkBase<HelperNeuron>
 	{
-		
 		public List<HelperSynapse> Synapses { get; set; }
 
-		public HelperNetworkBase() 
+		public HelperNetwork() 
 		{
-			
 			Synapses = new List<HelperSynapse>();
 		}
 	}
@@ -31,5 +29,10 @@ namespace BackPropagation.Helpers
 		public Guid OutputNeuronId { get; set; }
 		public Guid InputNeuronId { get; set; }
 	
+		public HelperSynapse(Guid id, float weight, float weightDelta,Guid outputNeuronId, Guid inputNeuronId): base(id,weight,weightDelta)
+		{
+			OutputNeuronId = outputNeuronId;
+			InputNeuronId = inputNeuronId;
+		}
 	}
 }

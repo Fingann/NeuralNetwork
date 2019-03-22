@@ -14,7 +14,7 @@ namespace BackPropagation.Tests
         [Fact]
         public void Test1()
         {
-            var trainingData = ImportHelper.ImportDatasets(
+            var trainingData = ImportHelper.ImportTrainingData(
                 "/Users/fingann/Documents/GitHub/NeuralNetwork/NeuralNetwork/BackPropagation/DataExamples/Datasets/RockPaperScissor_Dataset.json");
 
             var network = new NeuralNetwork(6, new []{10,10,10}, 2);

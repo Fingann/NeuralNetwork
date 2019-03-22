@@ -8,13 +8,13 @@ namespace BackPropagation.NetworkModels
 	{
 		public Neuron InputNeuron { get; set; }
 		public Neuron OutputNeuron { get; set; }
-		
-	
+
+
 
 		public Synapse()
 		{
-			Id = Guid.NewGuid();
-			Weight = (float)Util.GetRandom();
+			InputNeuron = new Neuron();
+			OutputNeuron = new Neuron();
 		}
 
 		public Synapse(Neuron inputNeuron, Neuron outputNeuron) : this()

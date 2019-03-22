@@ -42,7 +42,7 @@ namespace BackPropagation.NetworkModels
 				OutputLayer.Add(new Neuron(HiddenLayers.Last()));
 		}
 
-		public void Train(List<DataPoint> dataSets, int numEpochs)
+		public void Train(IReadOnlyList<DataPoint> dataSets, int numEpochs)
 		{
 			for (var i = 0; i < numEpochs; i++)
 			{
@@ -54,7 +54,7 @@ namespace BackPropagation.NetworkModels
 			}
 		}
 
-		public void Train(List<DataPoint> dataSets, double minimumError)
+		public void Train(IReadOnlyList<DataPoint> dataSets, double minimumError)
 		{
 			var error = 1.0;
 			var numEpochs = 0;

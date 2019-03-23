@@ -5,9 +5,9 @@ using Newtonsoft.Json;
 
 namespace BackPropagation.Helpers.Exporters
 {
-    public class DatasetExporter: IExporter<IEnumerable<DataPoint>>
+    public class DatasetExporter: IExporter<IReadOnlyList<DataPoint>>
     {
-        public void Export(IEnumerable<DataPoint> entety, string path)
+        public void Export(IReadOnlyList<DataPoint> entety, string path)
         {
             using (var file = File.CreateText(path))
             {

@@ -15,8 +15,9 @@ namespace BackPropagation.Tests
         public void Test1()
         {
             
-            var trainingData = new NeuralNetworkHelper();
-            trainingData.Importer.;
+            var datasetHelper = new DataSetHelper();
+            var trainingData= datasetHelper.Importer.Load("/Users/fingann/Documents/GitHub/NeuralNetwork/NeuralNetwork/BackPropagation/DataExamples/Datasets/RockPaperScissor_Dataset.json");
+           
 
             var network = new NeuralNetwork(6, new []{10,10,10}, 2);
             Stopwatch sw = new Stopwatch();

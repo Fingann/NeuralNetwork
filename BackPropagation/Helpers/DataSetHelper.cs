@@ -5,14 +5,14 @@ using BackPropagation.Networks.Models;
 
 namespace BackPropagation.Helpers
 {
-    public class DataSetHelper : IHelper<IEnumerable<DataPoint>>
+    public class DataSetHelper : IHelper<IReadOnlyList<DataPoint>>
     {
         public DataSetHelper()
         {
             Importer = new DataSetLoader();
             Exporter = new DatasetExporter();
         }
-        public ILoader<IEnumerable<DataPoint>> Importer { get; set; }
-        public IExporter<IEnumerable<DataPoint>> Exporter { get; set; }
+        public ILoader<IReadOnlyList<DataPoint>> Importer { get; set; }
+        public IExporter<IReadOnlyList<DataPoint>> Exporter { get; set; }
     }
 }

@@ -5,12 +5,12 @@ using Newtonsoft.Json;
 
 namespace BackPropagation.Helpers.Loaders
 {
-    public class DataSetLoader : ILoader<IEnumerable<DataPoint>>
+    public class DataSetLoader : ILoader<IReadOnlyList<DataPoint>>
     {
-        public IEnumerable<DataPoint> Load(string path)
+        public IReadOnlyList<DataPoint> Load(string path)
         {
                 var text = File.ReadAllText(path);
-                return JsonConvert.DeserializeObject<IEnumerable<DataPoint>>(text);
+                return JsonConvert.DeserializeObject<IReadOnlyList<DataPoint>>(text);
         }
     }
 }

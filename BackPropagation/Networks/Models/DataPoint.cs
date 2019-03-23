@@ -1,4 +1,4 @@
-﻿namespace BackPropagation.NetworkModels
+﻿namespace BackPropagation.Networks.Models
 {
 	public class DataPoint
 	{

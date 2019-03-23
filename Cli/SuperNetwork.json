@@ -1,612 +1,612 @@
 {
   "Synapses": [
     {
-      "OutputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "09244346-6541-48c9-a655-e73f723623f5",
-      "Weight": -21.3124828,
+      "OutputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "477d6102-5153-4065-82c3-2fccd0e65289",
+      "Weight": -3.467965,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "2b33c34f-fffd-4a95-8ce2-9381cebd3be6",
-      "Weight": -21.0279789,
+      "OutputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "2a0de478-99cc-4097-86b0-952e419deecd",
+      "Weight": -5.73535252,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "87ed6498-0b96-4064-bbc1-7856a206d528",
-      "Weight": 3.661565,
+      "OutputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "2a3b556c-ac23-43fb-b84a-0babdf0f9e0f",
+      "Weight": -1.13819516,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "da9c288f-9e65-49e0-ab0a-152491056b07",
-      "Weight": 6.117448,
+      "OutputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "811652c0-73d3-45c4-88f2-a93539057f6f",
+      "Weight": -1.40611947,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "156900ae-8b64-462c-b3d2-8060dd8c0ff7",
-      "Weight": -3.76482,
+      "OutputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "f4421f36-0d9d-4114-a437-026e403010e6",
+      "Weight": 4.028619,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "d6163850-88e0-42c0-ac99-77221f8b9d2c",
-      "Weight": 12.2353516,
+      "OutputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "b6bc0931-b969-40f7-8be2-6e751dc204ed",
+      "Weight": 5.05954456,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "6b5e2881-2709-41ec-b282-f88b4cb790a1",
-      "Weight": 1.60738778,
+      "OutputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "1bc12a62-380e-4d10-8446-7c4694a1e42b",
+      "Weight": -2.06380081,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "5b7cb30c-8aac-47f8-b77c-3bb0e20f3295",
-      "Weight": -9.672946,
+      "OutputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "b25c5020-7e35-4506-8955-cf168752b7b5",
+      "Weight": -1.96452165,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "217d7853-f7c9-42d0-bfcb-b9ec48ec1668",
-      "Weight": 6.91885138,
+      "OutputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "63647727-117c-41a2-ba3b-9acd74f8322a",
+      "Weight": -5.70464039,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "InputNeuronId": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Id": "f7d99893-2e49-4958-b577-24f99f04c0c7",
-      "Weight": -4.241151,
+      "OutputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "InputNeuronId": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Id": "ab85d160-cad7-48c1-915e-a9db0a4c988e",
+      "Weight": 2.2875216,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "f88c1af0-acc5-477c-a2a7-9165dde61fd3",
-      "Weight": 17.48507,
+      "OutputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "285940b7-76bc-4e93-90ea-6ab88decbb07",
+      "Weight": -5.49091053,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "2e0cbde4-efca-4d40-8246-ac5b07e2c80e",
-      "Weight": 20.8662167,
+      "OutputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "91d8cb47-cf05-4486-bd85-7bd5bc81cf1e",
+      "Weight": -3.96853518,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "7d7af97c-7e79-4221-bebd-cee71ff528d1",
-      "Weight": -6.71865273,
+      "OutputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "d22fa384-1205-4df0-8220-2e6c192ce22f",
+      "Weight": 1.32199359,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "df18cc19-f0ed-453c-a492-26a9230fa582",
-      "Weight": 3.9426024,
+      "OutputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "14e7da5c-c9f4-41db-9e7d-d4d000497604",
+      "Weight": 1.06915534,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "85dcd1bd-c161-45ba-bdfa-5ae9b914785a",
-      "Weight": 3.769982,
+      "OutputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "c275ddad-ed75-45fb-a4ea-8df7ca7c160a",
+      "Weight": -4.7516,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "60475055-741e-4df2-99c1-218055c41f10",
-      "Weight": -7.85545874,
+      "OutputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "83abcec1-4810-421d-a135-c3d90a74581d",
+      "Weight": 13.9814434,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "0376e8a5-5a08-42f3-a791-5e02e54c1c6f",
-      "Weight": -12.70322,
+      "OutputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "af262979-5040-4ae6-b409-e18fb7fb52d8",
+      "Weight": -0.5887729,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "8b90c67f-e407-4da3-8f45-55ead0e921cb",
-      "Weight": 4.005024,
+      "OutputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "809b6afb-a041-43c2-a6f1-2b75b4a392f1",
+      "Weight": 12.25675,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "448b83e3-61b2-4ab5-9cca-db146e74b7ac",
-      "Weight": -0.392881662,
+      "OutputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "f8e94fcf-fb2a-47aa-ab7e-2e645bb22181",
+      "Weight": 0.468402922,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "InputNeuronId": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Id": "f332431d-3a22-4021-b041-48630ed0a673",
-      "Weight": 1.75567412,
+      "OutputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "InputNeuronId": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Id": "8e61413a-9a5e-4bbb-b2e8-8da3e68f3fe7",
+      "Weight": 1.17865491,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "beba1f8e-cb4f-4ebe-ad72-4738269d2f54",
-      "Weight": 4.06551075,
-      "WeightDelta": -0.000518235
+      "OutputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "c8452f1e-6fbc-40b8-8ac3-d87e9050393b",
+      "Weight": 7.456948,
+      "WeightDelta": -0.00136314263
     },
     {
-      "OutputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "ff973490-c64d-4ca3-9b4c-2bcea8c2179e",
-      "Weight": -3.17557764,
-      "WeightDelta": 0.0006217148
+      "OutputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "79ea1ce2-29d2-4373-b352-1af6b0db51b7",
+      "Weight": 7.615336,
+      "WeightDelta": 0.000207946476
     },
     {
-      "OutputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "8264304d-e112-41bc-8ce0-e938a024a245",
-      "Weight": -1.43548608,
-      "WeightDelta": -0.0007228687
+      "OutputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "a25ea615-a68f-4c2c-9fed-55e6d30ca16c",
+      "Weight": -0.9170897,
+      "WeightDelta": 0.00034064168
     },
     {
-      "OutputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "e0a58054-65c6-439d-a7e6-3a12f186d8df",
-      "Weight": -1.40375149,
-      "WeightDelta": 4.60104857E-05
+      "OutputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "5c821a60-81c3-4f3e-b0e3-fd9a3b058e4f",
+      "Weight": 1.83288729,
+      "WeightDelta": -1.35061855E-05
     },
     {
-      "OutputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "b2dcab2b-349d-4e8b-a7c4-ed3eeb47f78b",
-      "Weight": -3.45220017,
-      "WeightDelta": -1.89954771E-05
+      "OutputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "3aa87f34-dc21-4404-9020-4b2c97a59b0d",
+      "Weight": -2.68343329,
+      "WeightDelta": -0.00152511
     },
     {
-      "OutputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "068ec9d0-bbf6-4dae-886d-a5c0bbeca360",
-      "Weight": -4.440916,
-      "WeightDelta": 0.000968864129
+      "OutputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "0978f4d5-ec26-48da-b685-a0d72d1f3923",
+      "Weight": -15.9158144,
+      "WeightDelta": -0.00355627271
     },
     {
-      "OutputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "052228a2-3f68-423c-8059-69ca35653dbe",
-      "Weight": 3.745093,
-      "WeightDelta": -0.0004558796
+      "OutputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "67297a47-7174-48b8-974c-4167f4c77973",
+      "Weight": 3.0147078,
+      "WeightDelta": 0.00129627716
     },
     {
-      "OutputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "c36cd658-511e-4787-94f4-b71144f05e8c",
-      "Weight": -1.93216956,
-      "WeightDelta": 0.0008103749
+      "OutputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "fe81eb87-99ef-4ed1-aaa1-713b89b9b01c",
+      "Weight": -14.5022068,
+      "WeightDelta": 0.00028026264
     },
     {
-      "OutputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "d88788fc-1883-422a-8321-28a6ee0f4aa2",
-      "Weight": -3.06047463,
-      "WeightDelta": -0.000570383854
+      "OutputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "5b18b8ac-a3d5-46a4-955c-f8837dbf3b4b",
+      "Weight": 3.07712555,
+      "WeightDelta": 0.0004818467
     },
     {
-      "OutputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "InputNeuronId": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Id": "09d29c28-aea0-43b2-9c4b-241526689958",
-      "Weight": -0.475555152,
-      "WeightDelta": 0.0003193655
+      "OutputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "InputNeuronId": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Id": "f217e033-6a5c-4cfc-874b-9a92ac1c83c8",
+      "Weight": -1.32834911,
+      "WeightDelta": 0.00276420545
     },
     {
-      "OutputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "eb355804-dfb0-4c49-ba54-37983f1364ba",
-      "Weight": -2.86185837,
+      "OutputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "03c0a484-240b-489d-85bf-8947c27d2b86",
+      "Weight": -5.26845169,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "ca46208a-4168-4456-aeaa-5751cea59296",
-      "Weight": -5.85630035,
+      "OutputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "9fd54511-abd5-4ae7-8a3d-c87de1cc4ac3",
+      "Weight": 9.23428249,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "00d3a46a-9f9b-467a-ab1e-e81d30dbb737",
-      "Weight": -1.1227479,
+      "OutputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "0f06a381-0dd4-4f5a-90da-38bfbecffadd",
+      "Weight": 0.1960466,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "b3bd7459-9add-4582-811c-d1c6b51da74f",
-      "Weight": 0.0549287722,
+      "OutputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "e929d001-bb32-4464-8c9a-5d07f780c8e7",
+      "Weight": 0.584942639,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "91288ba6-77bb-403e-b8a7-8bd7a5635e84",
-      "Weight": -1.6641897,
+      "OutputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "8cb02019-ace7-4d7c-9ba4-f074b09fe2d5",
+      "Weight": -6.02139473,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "02037225-cd52-44c1-9dab-ba46d4a27aa4",
-      "Weight": 3.00342441,
+      "OutputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "84fd8efa-9225-4c0f-8fe2-053cd043d36b",
+      "Weight": 14.8966026,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "3a82f662-8b2a-4256-b3f8-c6263d61a242",
-      "Weight": 3.197179,
+      "OutputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "0008cfb2-64ce-49e3-acaf-9c396e66e3db",
+      "Weight": 3.32984066,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "5db33e76-77b1-4aa2-97d6-664aabf82413",
-      "Weight": -2.777925,
+      "OutputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "ffccb47f-c95d-43b8-a938-e4ab8eb394f8",
+      "Weight": -6.888207,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "c1f3a249-967e-476b-a0fc-2ce46f3296f7",
-      "Weight": -3.15590644,
+      "OutputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "df318171-263a-4d5a-9094-7117e3156b05",
+      "Weight": 7.386708,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "InputNeuronId": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Id": "4db8d60a-03e3-4a27-8521-5e1366fa71f5",
-      "Weight": -2.27505374,
+      "OutputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "InputNeuronId": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Id": "42ab1b12-4ac8-4662-b289-32b0044c7d11",
+      "Weight": -3.34745646,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "3f46925c-cd20-44b5-9d8c-2ef6a5a912e7",
-      "Weight": 21.0474472,
+      "OutputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "627deb21-2e9d-4755-8034-ca1a32f79973",
+      "Weight": -4.97480154,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "69b947aa-7888-4a97-86e1-0b2a4aee9aa5",
-      "Weight": 20.1197643,
+      "OutputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "ef4d87d8-d2cf-41e3-bab7-630993cde557",
+      "Weight": -2.58697176,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "3d546019-5659-4866-8a8e-2761dd43351f",
-      "Weight": -6.2834034,
+      "OutputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "e3c9d51b-a1cb-4eaa-8efa-59525f490e83",
+      "Weight": -0.225604534,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "f2902681-37aa-4ba9-8ff2-268ac1c81b3f",
-      "Weight": 4.30354357,
+      "OutputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "c0be27d3-4779-401b-9492-73b0e49e331f",
+      "Weight": -1.60372829,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "191ead7d-a263-4a25-8dcf-2ef77959ae16",
-      "Weight": 3.632394,
+      "OutputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "e74a86f7-e3d6-4363-a74a-774d96e04c9f",
+      "Weight": -0.7415866,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "e0c67fa5-9b24-4fb7-a18e-799f9ce46680",
-      "Weight": -11.8475027,
+      "OutputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "0bc1e414-d678-4569-bfb8-12b337f29504",
+      "Weight": 0.04190859,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "222be8d6-4242-4891-b81a-5ff7612f1a96",
-      "Weight": -11.3949261,
+      "OutputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "bd4b5b2d-139d-4dd7-964e-813f9041896f",
+      "Weight": 0.09839997,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "71837d0e-3cc5-4b9f-a76f-9f4fb96420ff",
-      "Weight": 3.94041514,
+      "OutputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "05abd45d-3afa-40e0-8b12-1c0e114aeef8",
+      "Weight": -6.17364025,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "8c114012-55dc-4a77-adf1-ca98e10086cc",
-      "Weight": -0.206999362,
+      "OutputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "fe6e310e-6f29-4e9b-9e94-d32d1098f5b5",
+      "Weight": -4.82777,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "InputNeuronId": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Id": "9d80ccfb-b846-42b4-b9bb-2aa24689c7bf",
-      "Weight": 2.1585474,
+      "OutputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "InputNeuronId": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Id": "d766f0e5-f720-41dd-b21b-fccd16241747",
+      "Weight": 3.76545429,
       "WeightDelta": 0.0
     },
     {
-      "OutputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "c13ac56e-9803-4647-9f67-13dc1c093745",
-      "Weight": -17.9280777,
-      "WeightDelta": -0.000518235
+      "OutputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "bb701a54-b7d8-4b35-85ce-410cb13e5690",
+      "Weight": 8.351876,
+      "WeightDelta": -0.00136314263
     },
     {
-      "OutputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "c7c34393-1ab3-4f15-847a-0ddfbfb159b6",
-      "Weight": -18.3453159,
-      "WeightDelta": 0.0006217148
+      "OutputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "8fd23d9d-fb12-464b-9123-d381400540ad",
+      "Weight": -9.767244,
+      "WeightDelta": 0.000207946476
     },
     {
-      "OutputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "e6f109a7-8d0e-463a-9d84-e3f7f5f98c8a",
-      "Weight": 4.30643034,
-      "WeightDelta": -0.0007228687
+      "OutputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "8ba04613-f03b-406b-9125-d4ba10e757bd",
+      "Weight": 0.721167445,
+      "WeightDelta": 0.00034064168
     },
     {
-      "OutputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "ab414494-05fc-4ef3-9139-120304a7276c",
-      "Weight": 4.241287,
-      "WeightDelta": 4.60104857E-05
+      "OutputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "ef402a81-86b4-4cf7-942f-f1387a45af57",
+      "Weight": 0.428170145,
+      "WeightDelta": -1.35061855E-05
     },
     {
-      "OutputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "314ef69b-31d6-4dff-a026-6ddcf2978582",
-      "Weight": -3.669114,
-      "WeightDelta": -1.89954771E-05
+      "OutputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "9c908333-36da-4b6d-a994-205e8c68f45b",
+      "Weight": 1.02392054,
+      "WeightDelta": -0.00152511
     },
     {
-      "OutputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "798116e4-c4df-4a5b-beff-213a011c7a53",
-      "Weight": 9.938617,
-      "WeightDelta": 0.000968864129
+      "OutputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "84c30d74-f999-4fc3-b1ea-3d59cbbd1b4d",
+      "Weight": -14.2470856,
+      "WeightDelta": -0.00355627271
     },
     {
-      "OutputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "0d38fb94-0d91-4276-8a09-6aa9b3ced9f2",
-      "Weight": 0.291429728,
-      "WeightDelta": -0.0004558796
+      "OutputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "e2909e3e-4540-46df-bf86-9cb83efce67e",
+      "Weight": -3.90714431,
+      "WeightDelta": 0.00129627716
     },
     {
-      "OutputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "187cde0c-1b2f-4afd-a842-3d31a90d853e",
-      "Weight": -8.025697,
-      "WeightDelta": 0.0008103749
+      "OutputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "9f2664f6-85c7-4280-b055-95e222bd77ce",
+      "Weight": 10.3568935,
+      "WeightDelta": 0.00028026264
     },
     {
-      "OutputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "ac0663a5-508d-4136-a26c-9a7e4ceedaff",
-      "Weight": 7.73191547,
-      "WeightDelta": -0.000570383854
+      "OutputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "2ac95f4e-5cf3-4587-9e52-7a731c75082a",
+      "Weight": -2.79655671,
+      "WeightDelta": 0.0004818467
     },
     {
-      "OutputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "InputNeuronId": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Id": "14336cdd-ebe5-4e66-9608-9917179c0be7",
-      "Weight": -3.40280318,
-      "WeightDelta": 0.0003193655
+      "OutputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "InputNeuronId": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Id": "42fef39c-099b-4585-98e7-b58a14d421ba",
+      "Weight": -1.21570015,
+      "WeightDelta": 0.00276420545
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "Id": "d5097b76-c928-4b30-9c39-503f144f7953",
-      "Weight": 16.210083,
-      "WeightDelta": -3.47498336E-10
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "Id": "1405f48a-1cac-461d-a658-ea753c36e659",
+      "Weight": 10.2303829,
+      "WeightDelta": -0.0006787811
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-      "Id": "d3e4fdef-6dbe-4afc-a212-f7e932261eb8",
-      "Weight": -2.74552,
-      "WeightDelta": -6.43926967E-10
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+      "Id": "a8bff122-cc0d-434f-9f1e-81e398b8c58e",
+      "Weight": -6.030833,
+      "WeightDelta": -1.90659671E-06
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "Id": "331ab0c8-8811-44bd-a60a-6246eb046833",
-      "Weight": -7.123087,
-      "WeightDelta": -1.11200285E-15
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "Id": "d2b44769-a6c7-416a-baaf-bae8ff81d951",
+      "Weight": -1.25016379,
+      "WeightDelta": -6.70814643E-06
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-      "Id": "bc14e04c-fe64-45e8-98fd-d9fdd16ba938",
-      "Weight": -3.355625,
-      "WeightDelta": -2.06058129E-15
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "c933f529-2d06-4289-93bc-231064e15f18",
+      "Id": "04cbdf3c-0690-4362-9dd8-151dd52d7385",
+      "Weight": 8.799915,
+      "WeightDelta": -1.88422E-08
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "Id": "09031d93-ae4a-404c-8e5f-ba2ef2b6c38e",
-      "Weight": -3.01383352,
-      "WeightDelta": -7.042108E-05
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "Id": "5239c374-02d9-436a-a0f7-9a5c078d2e7e",
+      "Weight": -2.11186981,
+      "WeightDelta": -0.000305014924
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-      "Id": "401ea982-5430-4a7f-802f-2c4a88c921e5",
-      "Weight": 10.3002558,
-      "WeightDelta": -0.0001304928
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+      "Id": "27efd23b-3ebe-49bd-af53-f28b50dddbd5",
+      "Weight": 0.4075199,
+      "WeightDelta": -8.567422E-07
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "Id": "7e339b71-2daa-4312-b610-3aaa1d5727b8",
-      "Weight": -10.813653,
-      "WeightDelta": -0.00018638937
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "Id": "98560aef-1004-4d61-9962-1c08c050313c",
+      "Weight": 0.105331168,
+      "WeightDelta": -0.0006206335
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-      "Id": "cad3acc3-2fc3-41e1-bd24-82163a75e2f7",
-      "Weight": 5.158207,
-      "WeightDelta": -0.000345386245
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "84604d19-b03d-42ea-908d-9aa5f3177166",
+      "Id": "2cfe3bdd-95ec-480c-814f-298a332e8739",
+      "Weight": -3.038457,
+      "WeightDelta": -1.74326851E-06
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "Id": "27724aa3-9d80-4f5a-9e06-e7c685cf3cb9",
-      "Weight": -2.420426,
-      "WeightDelta": -3.85173529E-08
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "Id": "41595cbd-ff24-4421-9e1d-16703f3c4e0a",
+      "Weight": 8.985498,
+      "WeightDelta": -7.394648E-07
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "7765476f-666e-4c74-918a-57c288697d76",
-      "Id": "f1f92ef4-59d3-4e26-a154-07d7151e090e",
-      "Weight": 1.52631533,
-      "WeightDelta": -7.13740462E-08
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+      "Id": "3b4b5aeb-c7c3-410b-8770-c3d1e045205b",
+      "Weight": 0.654780149,
+      "WeightDelta": -2.07704831E-09
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "Id": "517e46c8-fe4d-4ec8-b9b8-5c2109d55172",
-      "Weight": 10.0730114,
-      "WeightDelta": -0.000186008954
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "Id": "5b8395d7-ae9c-4749-9787-26936c9d1791",
+      "Weight": 20.9962578,
+      "WeightDelta": -2.15328957E-16
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-      "Id": "9674efa7-e602-4bbf-91f6-38a4af1a12be",
-      "Weight": -19.69036,
-      "WeightDelta": -0.000344681321
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+      "Id": "b203eb81-f883-494d-8cb1-19fbf3817c5c",
+      "Weight": -14.0484762,
+      "WeightDelta": -6.048275E-19
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "Id": "1c78427e-fa4e-4e60-8a84-33eb7068c954",
-      "Weight": 11.0077162,
-      "WeightDelta": -1.59723083E-06
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "Id": "36fd87f2-f0a6-46c1-a294-9d53116e31bd",
+      "Weight": -7.758408,
+      "WeightDelta": -0.0001666768
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "68a9419c-0820-4d0d-a27a-c6212990177d",
-      "Id": "954d2138-230d-4d5e-b895-9f4cdc0338b3",
-      "Weight": -0.660652041,
-      "WeightDelta": -2.95972654E-06
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+      "Id": "35d34c85-96b5-4ecc-af27-5542d530ba69",
+      "Weight": 1.30578089,
+      "WeightDelta": -4.681707E-07
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "Id": "ea8ef128-5376-4334-9f15-8a76e709dfaf",
-      "Weight": 2.17426038,
-      "WeightDelta": -9.776251E-12
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "Id": "9d0b9004-360f-424e-b114-caaf267e0ba2",
+      "Weight": -1.68234766,
+      "WeightDelta": -2.3203863E-07
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-      "Id": "3e2475b0-14b3-404f-b941-2bf5f0f5e8e5",
-      "Weight": -10.558444,
-      "WeightDelta": -1.81157467E-11
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+      "Id": "491c4b51-e47d-464c-9445-676163f9c13a",
+      "Weight": 10.9599619,
+      "WeightDelta": -6.51762533E-10
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "Id": "730597a0-7b6e-47a3-b1da-99ff97fd8173",
-      "Weight": 1.991194,
-      "WeightDelta": -0.000186337347
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "Id": "46c36b4f-7e17-421f-9b43-6232a4e3e6f8",
+      "Weight": -2.91687441,
+      "WeightDelta": -0.000211488892
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-      "Id": "7b9ce8f8-ae3b-4acb-931c-5420134c16cb",
-      "Weight": 7.3236413,
-      "WeightDelta": -0.000345289824
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "a636512b-3818-4d7b-9a62-fcceecfef664",
+      "Id": "eb5b3ef7-4e28-4569-abea-b766ef3798a2",
+      "Weight": 2.74576473,
+      "WeightDelta": -5.94041353E-07
     },
     {
-      "OutputNeuronId": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "InputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "Id": "2e2bead1-0c76-4420-8aee-cfd19f3cc346",
-      "Weight": 1.64939666,
-      "WeightDelta": -7.61534054E-08
+      "OutputNeuronId": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "InputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "Id": "0adb9393-78ce-4d91-9013-04ff1b8e71e6",
+      "Weight": -17.2968216,
+      "WeightDelta": -0.000332726922
     },
     {
-      "OutputNeuronId": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "InputNeuronId": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-      "Id": "00e3d23d-88eb-470b-bfef-2aef9bda04f2",
-      "Weight": -4.588681,
-      "WeightDelta": -1.41115009E-07
+      "OutputNeuronId": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "InputNeuronId": "15974c30-e7a5-4972-ab29-78e121a66a58",
+      "Id": "db5cf719-aa6f-4b24-9f33-f6ea5b4de412",
+      "Weight": 3.21703553,
+      "WeightDelta": -9.345812E-07
     }
   ],
   "LearnRate": 0.05,
   "Momentum": 0.9,
   "InputLayer": [
     {
-      "Id": "280e07a7-cfac-4ddf-8d37-43ac1568dda9",
-      "Bias": 0.114656411,
+      "Id": "34461daf-c7cb-4582-862b-0a146893a099",
+      "Bias": 0.539951,
       "BiasDelta": 0.0,
       "Gradient": 0.0,
       "Value": 0.0,
       "ActivationType": 0
     },
     {
-      "Id": "c945b906-78f4-4d4c-b017-0509b3828039",
-      "Bias": 0.5722341,
+      "Id": "c1fa7046-512d-4f28-98e1-a284159c9888",
+      "Bias": -0.157552034,
       "BiasDelta": 0.0,
       "Gradient": 0.0,
       "Value": 0.0,
       "ActivationType": 0
     },
     {
-      "Id": "1d8a0b81-5a2f-4376-9d30-b9db69c227bd",
-      "Bias": -0.0622057021,
+      "Id": "072a2013-ad10-455a-b231-fed7068cdc25",
+      "Bias": 0.6479159,
       "BiasDelta": 0.0,
       "Gradient": 0.0,
       "Value": 1.0,
       "ActivationType": 0
     },
     {
-      "Id": "5af3fdee-a638-4085-877b-8e27a8aecd91",
-      "Bias": 0.524478436,
+      "Id": "5e59b714-c151-48a9-8e84-6577b227ec5a",
+      "Bias": 0.359985858,
       "BiasDelta": 0.0,
       "Gradient": 0.0,
       "Value": 0.0,
       "ActivationType": 0
     },
     {
-      "Id": "8bce370e-3dc2-4246-bc30-009e472aaf97",
-      "Bias": 0.151839346,
+      "Id": "c4840714-2e1e-49cd-b771-33cbdd602230",
+      "Bias": -0.0309428889,
       "BiasDelta": 0.0,
       "Gradient": 0.0,
       "Value": 0.0,
       "ActivationType": 0
     },
     {
-      "Id": "ab6aa2c1-db38-41f1-a8d1-656b67da657b",
-      "Bias": -0.8605174,
+      "Id": "afa72103-23a6-4537-aba4-c050945cad74",
+      "Bias": -0.93523246,
       "BiasDelta": 0.0,
       "Gradient": 0.0,
       "Value": 1.0,
@@ -616,102 +616,102 @@
   "HiddenLayers": [
     [
       {
-        "Id": "39317be7-2c0d-4571-a0d7-b2a2a5823296",
-        "Bias": 0.6674615,
-        "BiasDelta": -0.000518235,
-        "Gradient": -0.0103647,
-        "Value": 1.86435864E-06,
+        "Id": "d9531069-002d-4c75-8b29-bb23cbd013e3",
+        "Bias": -1.95003211,
+        "BiasDelta": -0.00136314263,
+        "Gradient": -0.0272628516,
+        "Value": 0.999999046,
         "ActivationType": 0
       },
       {
-        "Id": "b2ea3158-19d4-4d62-9c4e-c61862d0ac30",
-        "Bias": -4.32281733,
-        "BiasDelta": 0.0006217148,
-        "Gradient": 0.0124342963,
-        "Value": 5.965991E-12,
+        "Id": "c933f529-2d06-4289-93bc-231064e15f18",
+        "Bias": -2.454079,
+        "BiasDelta": 0.000207946476,
+        "Gradient": 0.00415892946,
+        "Value": 0.009882626,
         "ActivationType": 0
       },
       {
-        "Id": "2ad71427-42c4-45b1-b360-09b3f180a5f8",
-        "Bias": -3.36885238,
-        "BiasDelta": -0.0007228687,
-        "Gradient": -0.0144573739,
-        "Value": 0.3778152,
+        "Id": "e4d0fdf7-87ee-45d9-be29-24f703f3701b",
+        "Bias": -0.00630284846,
+        "BiasDelta": 0.00034064168,
+        "Gradient": 0.00681283325,
+        "Value": 0.449356377,
         "ActivationType": 0
       },
       {
-        "Id": "27827768-f7c9-4ef9-a97c-c0d388a92768",
-        "Bias": 9.381502,
-        "BiasDelta": 4.60104857E-05,
-        "Gradient": 0.0009202097,
-        "Value": 0.9999951,
+        "Id": "84604d19-b03d-42ea-908d-9aa5f3177166",
+        "Bias": 0.1064773,
+        "BiasDelta": -1.35061855E-05,
+        "Gradient": -0.0002701237,
+        "Value": 0.914334357,
         "ActivationType": 0
       },
       {
-        "Id": "7765476f-666e-4c74-918a-57c288697d76",
-        "Bias": -1.36252379,
-        "BiasDelta": -1.89954771E-05,
-        "Gradient": -0.000379909528,
-        "Value": 0.000206648925,
+        "Id": "c4f19b14-22b1-41e8-8dbb-20624977342b",
+        "Bias": -5.166061,
+        "BiasDelta": -0.00152511,
+        "Gradient": -0.0305021983,
+        "Value": 0.00108939991,
         "ActivationType": 0
       },
       {
-        "Id": "7d994a2c-2241-44c6-a6f9-6d81ef92e8cb",
-        "Bias": 0.6890966,
-        "BiasDelta": 0.000968864129,
-        "Gradient": 0.0193772819,
-        "Value": 0.99795413,
+        "Id": "c0b69bc1-94ab-4578-aa79-466f3bf2f592",
+        "Bias": 1.37222517,
+        "BiasDelta": -0.00355627271,
+        "Gradient": -0.0711254552,
+        "Value": 3.17228557E-13,
         "ActivationType": 0
       },
       {
-        "Id": "68a9419c-0820-4d0d-a27a-c6212990177d",
-        "Bias": -8.78933048,
-        "BiasDelta": -0.0004558796,
-        "Gradient": -0.009117592,
-        "Value": 0.008569282,
+        "Id": "ab3e02ed-59cf-473a-a6dc-b3c384ffe28c",
+        "Bias": -0.226083711,
+        "BiasDelta": 0.00129627716,
+        "Gradient": 0.0259255432,
+        "Value": 0.245552853,
         "ActivationType": 0
       },
       {
-        "Id": "19e39463-1264-4e43-b2ad-2ed7625f12e5",
-        "Bias": -6.806245,
-        "BiasDelta": 0.0008103749,
-        "Gradient": 0.0162074976,
-        "Value": 5.245043E-08,
+        "Id": "fc2acb84-a432-4484-8d2a-7ef218c0c810",
+        "Bias": -3.83398914,
+        "BiasDelta": 0.00028026264,
+        "Gradient": 0.00560525246,
+        "Value": 0.0003418457,
         "ActivationType": 0
       },
       {
-        "Id": "e4a96d4d-9d32-4683-ac27-fef7096afd49",
-        "Bias": 3.49513626,
-        "BiasDelta": -0.000570383854,
-        "Gradient": -0.0114076771,
-        "Value": 0.999716,
+        "Id": "a636512b-3818-4d7b-9a62-fcceecfef664",
+        "Bias": -1.07174039,
+        "BiasDelta": 0.0004818467,
+        "Gradient": 0.009636934,
+        "Value": 0.31157127,
         "ActivationType": 0
       },
       {
-        "Id": "b3a4f015-bfe6-4df5-a94d-117f7bb0412c",
-        "Bias": -3.92450547,
-        "BiasDelta": 0.0003193655,
-        "Gradient": 0.00638730964,
-        "Value": 0.000408569584,
+        "Id": "15974c30-e7a5-4972-ab29-78e121a66a58",
+        "Bias": 2.51322079,
+        "BiasDelta": 0.00276420545,
+        "Gradient": 0.05528411,
+        "Value": 0.490182459,
         "ActivationType": 0
       }
     ]
   ],
   "OutputLayer": [
     {
-      "Id": "8cdf0880-a468-41db-b175-f1a82436eda2",
-      "Bias": -4.37675428,
-      "BiasDelta": -0.000186390287,
-      "Gradient": -0.0037278058,
-      "Value": 0.01491205,
+      "Id": "0bc07507-b20f-4f8e-a372-7f2d256419d9",
+      "Bias": -0.9409492,
+      "BiasDelta": -0.000678781769,
+      "Gradient": -0.0135756349,
+      "Value": 0.054342635,
       "ActivationType": 0
     },
     {
-      "Id": "372ce393-e40c-4d21-944e-d0e1b923a3ba",
-      "Bias": -0.274567217,
-      "BiasDelta": -0.000345387933,
-      "Gradient": -0.0069077583,
-      "Value": 0.0276363138,
+      "Id": "3438fea8-dabd-43bc-b304-8f892c82d933",
+      "Bias": -3.00628042,
+      "BiasDelta": -1.90659853E-06,
+      "Gradient": -3.813197E-05,
+      "Value": 0.000152527879,
       "ActivationType": 0
     }
   ],

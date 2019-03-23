@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 using BackPropagation.ActivationFunctions;
-using BackPropagation.NetworkModels;
 
 namespace BackPropagation.Abstractions
 {
     public abstract class NetworkBase<T>
     {
-        protected NetworkBase() : this(0,0, ActivationType.Sigmoid)
+        protected NetworkBase() : this(0.05F,0.7F, ActivationType.Sigmoid)
         {
   
         }

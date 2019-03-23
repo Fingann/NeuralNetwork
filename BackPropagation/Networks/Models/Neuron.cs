@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using BackPropagation.Abstractions;
 using BackPropagation.ActivationFunctions;
 
-
-namespace BackPropagation.NetworkModels
+namespace BackPropagation.Networks.Models
 {
 	public class Neuron : NeuronBase
 	{
@@ -14,20 +12,13 @@ namespace BackPropagation.NetworkModels
 		public List<Synapse> InputSynapses { get; set; }
 		public List<Synapse> OutputSynapses { get; set; }
 		
-
-		public Neuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType activation): base(id, bias,biasDelta,gradient,value,activation)
+		public Neuron(ActivationType activationType): base(activationType)
 		{
 			InputSynapses = new List<Synapse>();
 			OutputSynapses = new List<Synapse>();
 		}
-
-		public Neuron()
-		{
-			InputSynapses = new List<Synapse>();
-			OutputSynapses = new List<Synapse>();
-		}
-
-		public Neuron(IEnumerable<Neuron> inputNeurons) : this()
+		
+		public Neuron(IEnumerable<Neuron> inputNeurons, ActivationType activationType) : this(activationType)
 		{
 			foreach (var inputNeuron in inputNeurons)
 			{
@@ -36,6 +27,16 @@ namespace BackPropagation.NetworkModels
 				InputSynapses.Add(synapse);
 			}
 		}
+		
+		public Neuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType activation): base(id, bias,biasDelta,gradient,value,activation)
+		{
+			InputSynapses = new List<Synapse>();
+			OutputSynapses = new List<Synapse>();
+		}
+
+		
+
+		
 
 		public virtual void CalculateValue()
 		{

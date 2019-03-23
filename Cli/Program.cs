@@ -2,7 +2,7 @@
 using BackPropagation.ActivationFunctions;
 using BackPropagation.ActivationFunctions.Delegates;
 using BackPropagation.Helpers;
-using BackPropagation.NetworkModels;
+using BackPropagation.Networks;
 
 namespace Cli
 {

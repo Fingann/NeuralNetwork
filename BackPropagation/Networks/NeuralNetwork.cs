@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using BackPropagation.Abstractions;
 using BackPropagation.ActivationFunctions;
+using BackPropagation.Networks.Models;
 
-namespace BackPropagation.NetworkModels
+namespace BackPropagation.Networks
 {
 	public class NeuralNetwork : NetworkBase<Neuron>
 	{
-		
-		
-		
 		public NeuralNetwork()
 		{
 			
@@ -20,12 +18,12 @@ namespace BackPropagation.NetworkModels
 		{
 			//create input layer
 			for (var i = 0; i < inputSize; i++)
-				InputLayer.Add(new Neuron());
+				InputLayer.Add(new Neuron(activationType));
 
 			
 			var firstHiddenLayer = new List<Neuron>();
 			for (var i = 0; i < hiddenSizes[0]; i++)
-				firstHiddenLayer.Add(new Neuron(InputLayer));
+				firstHiddenLayer.Add(new Neuron(InputLayer, activationType));
 
 			HiddenLayers.Add(firstHiddenLayer);
 
@@ -34,12 +32,12 @@ namespace BackPropagation.NetworkModels
 			{
 				var hiddenLayer = new List<Neuron>();
 				for (var j = 0; j < hiddenSizes[i]; j++)
-					hiddenLayer.Add(new Neuron(HiddenLayers[i - 1]));
+					hiddenLayer.Add(new Neuron(HiddenLayers[i - 1],activationType));
 				HiddenLayers.Add(hiddenLayer);
 			}
 
 			for (var i = 0; i < outputSize; i++)
-				OutputLayer.Add(new Neuron(HiddenLayers.Last()));
+				OutputLayer.Add(new Neuron(HiddenLayers.Last(),activationType));
 		}
 
 		public void Train(IReadOnlyList<DataPoint> dataSets, int numEpochs)

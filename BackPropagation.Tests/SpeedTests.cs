@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using BackPropagation.ActivationFunctions;
 using BackPropagation.Helpers;
-using BackPropagation.NetworkModels;
+using BackPropagation.Networks;
 using Xunit;
 
 namespace BackPropagation.Tests
@@ -14,8 +14,9 @@ namespace BackPropagation.Tests
         [Fact]
         public void Test1()
         {
-            var trainingData = ImportHelper.ImportTrainingData(
-                "/Users/fingann/Documents/GitHub/NeuralNetwork/NeuralNetwork/BackPropagation/DataExamples/Datasets/RockPaperScissor_Dataset.json");
+            
+            var trainingData = new NeuralNetworkHelper();
+            trainingData.Importer.;
 
             var network = new NeuralNetwork(6, new []{10,10,10}, 2);
             Stopwatch sw = new Stopwatch();

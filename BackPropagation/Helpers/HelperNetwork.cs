@@ -17,14 +17,14 @@ namespace BackPropagation.Helpers
 		}
 	}
 
-	public class HelperNeuron : NeuronBase
+	internal class HelperNeuron : NeuronBase
 	{
 		public HelperNeuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType type): base(id,bias,biasDelta,gradient,value,type)
 		{
 		}
 	}
 
-	public class HelperSynapse:SynapseBase
+	internal class HelperSynapse:SynapseBase
 	{
 		public Guid OutputNeuronId { get; set; }
 		public Guid InputNeuronId { get; set; }

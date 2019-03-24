@@ -1,33 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using BackPropagation.Abstractions;
 using BackPropagation.ActivationFunctions;
 
-
-namespace BackPropagation.NetworkModels
+namespace BackPropagation.Networks.Models
 {
 	public class Neuron : NeuronBase
 	{
 		
-		public List<Synapse> InputSynapses { get; set; }
-		public List<Synapse> OutputSynapses { get; set; }
+		public List<Synapse> InputSynapses { get; }
+		public List<Synapse> OutputSynapses { get;  }
 		
-
-		public Neuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType activation): base(id, bias,biasDelta,gradient,value,activation)
+		public Neuron(ActivationType activationType): base(activationType)
 		{
 			InputSynapses = new List<Synapse>();
 			OutputSynapses = new List<Synapse>();
 		}
-
-		public Neuron()
-		{
-			InputSynapses = new List<Synapse>();
-			OutputSynapses = new List<Synapse>();
-		}
-
-		public Neuron(IEnumerable<Neuron> inputNeurons) : this()
+		
+		public Neuron(IEnumerable<Neuron> inputNeurons, ActivationType activationType) : this(activationType)
 		{
 			foreach (var inputNeuron in inputNeurons)
 			{
@@ -36,11 +27,20 @@ namespace BackPropagation.NetworkModels
 				InputSynapses.Add(synapse);
 			}
 		}
+		
+		public Neuron(Guid id, float bias, float biasDelta, float gradient, float value, ActivationType activation): base(id, bias,biasDelta,gradient,value,activation)
+		{
+			InputSynapses = new List<Synapse>();
+			OutputSynapses = new List<Synapse>();
+		}
+
+		
+
+		
 
 		public virtual void CalculateValue()
 		{
 			Value = ActivationFunc.Activation(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
-			//return Value = Sigmoid.Output(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
 		}
 
 		public float CalculateError(float target)
@@ -58,7 +58,6 @@ namespace BackPropagation.NetworkModels
 			}
 
 			Gradient = CalculateError(target.Value) * ActivationFunc.ActivationPrime(Value);
-			//return Gradient = CalculateError(target.Value) * Sigmoid.Derivative(Value);
 		}
 
 		public void UpdateWeights(float learnRate, float momentum)

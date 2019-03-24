@@ -1,49 +1,44 @@
 ﻿using System;
-using BackPropagation.ActivationFunctions;
-using BackPropagation.ActivationFunctions.Delegates;
 using BackPropagation.Helpers;
-using BackPropagation.NetworkModels;
+using BackPropagation.Networks;
 
 namespace Cli
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            var trainingData = ImportHelper.ImportDatasets(
+            var datasetHelper = new DataSetHelper();
+            var trainingData = datasetHelper.Importer.Load(
                 "/Users/fingann/Documents/GitHub/NeuralNetwork/NeuralNetwork/BackPropagation/DataExamples/Datasets/RockPaperScissor_Dataset.json");
 
-            var network = new NeuralNetwork(6, new []{10}, 2,0.05F,0.9F);
+            var network = new NeuralNetwork(6, new[] {10}, 2, 0.05F, 0.9F);
 
             Console.WriteLine("Training");
             network.Train(trainingData, 0.05);
             Console.WriteLine("Training Complete");
 
+            var networkHelper = new NeuralNetworkHelper();
             Console.WriteLine("Exporting");
-            ExportHelper.ExportNetwork(network);
+            networkHelper.Exporter.Export(network, "SuperNetwork.json");
             Console.WriteLine("Exporting Complete");
-            
+
             Console.WriteLine("Importing");
-            var net2 = ImportHelper.ImportNetwork("NetworkExported.json");
+            var net2 = networkHelper.Importer.Load("SuperNetwork.json");
             Console.WriteLine("Importing Complete");
-            
+
 
             while (true)
-            { 
+            {
                 Console.WriteLine("Input test values: ");
-                var input =  Console.ReadLine();
+                var input = Console.ReadLine();
                 var inputs = input.Split(' ');
-                float[] inputDouble = new float[6];
-                for (int i = 0; i < inputs.Length; i++)
-                {
-                    inputDouble[i] = int.Parse(inputs[i]);
-                }
+                var inputDouble = new float[6];
+                for (var i = 0; i < inputs.Length; i++) inputDouble[i] = int.Parse(inputs[i]);
 
                 var output = net2.Compute(inputDouble);
-                foreach (var e in output)
-                {
-                    Console.WriteLine(e);
-                }
-            }        }
+                foreach (var e in output) Console.WriteLine(e);
+            }
+        }
     }
 }

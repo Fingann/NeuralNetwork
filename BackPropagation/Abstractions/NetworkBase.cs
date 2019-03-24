@@ -10,18 +10,15 @@ namespace BackPropagation.Abstractions
   
         }
 
-        protected NetworkBase(float learnRate, float momentum, ActivationType activationType): this(learnRate, momentum, new List<T>(), new List<List<T>>(), new List<T>(), activationType)
-        {
-        }
-
-        protected NetworkBase(float learnRate, float momentum, List<T> inputLayer, List<List<T>> hiddenLayers, List<T> outputLayer, ActivationType activationType)
+        protected NetworkBase(float learnRate, float momentum, ActivationType activationType)
         {
             LearnRate = learnRate;
             Momentum = momentum;
-            InputLayer = inputLayer;
-            HiddenLayers = hiddenLayers;
-            OutputLayer = outputLayer;
             ActivationActivationType = activationType;
+            InputLayer = new List<T>();
+            HiddenLayers = new List<List<T>>();
+            OutputLayer = new List<T>();
+
         }
         
         public float LearnRate { get; set; }

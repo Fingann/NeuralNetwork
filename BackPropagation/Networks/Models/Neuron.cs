@@ -9,8 +9,8 @@ namespace BackPropagation.Networks.Models
 	public class Neuron : NeuronBase
 	{
 		
-		public List<Synapse> InputSynapses { get; set; }
-		public List<Synapse> OutputSynapses { get; set; }
+		public List<Synapse> InputSynapses { get; }
+		public List<Synapse> OutputSynapses { get;  }
 		
 		public Neuron(ActivationType activationType): base(activationType)
 		{
@@ -41,7 +41,6 @@ namespace BackPropagation.Networks.Models
 		public virtual void CalculateValue()
 		{
 			Value = ActivationFunc.Activation(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
-			//return Value = Sigmoid.Output(InputSynapses.Sum(a => a.Weight * a.InputNeuron.Value) + Bias);
 		}
 
 		public float CalculateError(float target)
@@ -59,7 +58,6 @@ namespace BackPropagation.Networks.Models
 			}
 
 			Gradient = CalculateError(target.Value) * ActivationFunc.ActivationPrime(Value);
-			//return Gradient = CalculateError(target.Value) * Sigmoid.Derivative(Value);
 		}
 
 		public void UpdateWeights(float learnRate, float momentum)

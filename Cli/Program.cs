@@ -10,7 +10,7 @@ namespace Cli
         {
             var datasetHelper = new DataSetHelper();
             var trainingData = datasetHelper.Importer.Load(
-                "/Users/fingann/Documents/GitHub/NeuralNetwork/NeuralNetwork/BackPropagation/DataExamples/Datasets/RockPaperScissor_Dataset.json");
+                "..\\..\\..\\..\\BackPropagation\\DataExamples\\Datasets\\RockPaperScissor_Dataset.json");
 
             var network = new NeuralNetwork(6, new[] {10}, 2, 0.05F, 0.9F);
 

@@ -1,5 +1,5 @@
-using System;
 using BackPropagation.Helpers;
+using System;
 
 namespace BackPropagation.Abstractions
 {
@@ -8,7 +8,7 @@ namespace BackPropagation.Abstractions
         public Guid Id { get; set; }
         public float Weight { get; set; }
         public float WeightDelta { get; set; }
-        
+
         protected SynapseBase() : this(Guid.NewGuid(), (float)Util.GetRandom(), 0)
         {
         }
